@@ -1,0 +1,33 @@
+<html>
+  <head></head>
+  <body>
+    <p>
+      The secret number is:
+      <%= number %>
+      <p>
+    <% unless guess.nil? %>
+      <p>
+	The GUESS is <%= guess %>
+      <p>
+      <p>
+        <%= msg %>
+      <p>
+      <% if got_it %>
+        <p>
+          You got it right!
+	  <a href="/">Play again</a>
+        <p>
+      <% else %>
+        <p>
+        Try again!
+	<p>
+      <% end %>
+    <% end %>
+    <% unless got_it %>
+      <form>
+        <input type='text' name='guess' />
+        <input type='submit' value='Guess!' />
+      </form>
+    <% end %>
+  </body>
+</html>
