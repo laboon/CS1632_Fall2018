@@ -9,15 +9,16 @@ WPGR = _Why's (Poignant) Guide to Ruby_
 
 ## Week 1 (Week of 27 AUG):
 
-* (Class 1)
-  * Introduction - What is Software Quality Assurance?
+* (Class 1) Introduction
+  * What is Software Quality Assurance?
+  * Go over syllabus and course information
 
 * (Class 2) Basic Testing Theory and Terminology
-    READING: AFIST, Chapters 2 - 4
+  * READING: AFIST, Chapters 2 - 4
 
 ## Week 2 (Week of 3 SEP):
 
-LABOR DAY
+* (Class 1) NO CLASS - LABOR DAY
 
 * (Class 2) Requirements, Test Plans, Traceability Matrices
   * ASSIGNED: D1
@@ -66,6 +67,8 @@ LABOR DAY
 
 ## Week 8 (Week of 15 OCT):
 
+**NOTE: CLASS 1 IS ON TUESDAY, NOT MONDAY, THIS WEEK!!!**
+
 * (CLASS 1) MIDTERM 1
 
 * (Class 2) Advanced Unit Testing - Doubles, Stubs, Mocks, Verification
@@ -81,10 +84,10 @@ LABOR DAY
 ## Week 10 (Week of 29 OCT):
 
 * (Class 1) Intro to Sinatra and System Testing
-  * DUE: D2
-  * ASSIGNED: D3
 
 * (Class 2) Web-Based System Testing
+  * DUE: D2
+  * ASSIGNED: D3
   * EXERCISE 5
 
 ## Week 11 (Week of 5 NOV):
@@ -97,11 +100,11 @@ LABOR DAY
 ## Week 12 (Week of 12 NOV):
 
 * (Class 1) Performance Testing and Optimization
+  * DUE: D3
+  * ASSIGNED: D4
   * EXERCISE 6
 
 * (Class 1) Stochastic, Fuzz, and Property-Based Testing
-  * DUE: D3
-  * ASSIGNED: D4
   * READING: AFIST, Chapter 18
 
 ## Week 13 (Week of 19 NOV):
