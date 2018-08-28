@@ -1,4 +1,4 @@
-# Syllabus - Summer 2018
+# Syllabus - Fall 2018
 CS1632 Software Quality Assurance
 
 _Although the instructor will make a best effort to have the class topic on the day listed, occasionally a change must be made (e.g., a lecture going long, or a guest lecturer unable to make it to class that day).  However, these are the topics that will be covered and the expected date that they will be taught._
