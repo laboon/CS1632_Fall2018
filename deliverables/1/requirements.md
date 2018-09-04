@@ -1,0 +1,11 @@
+## Requirements
+
+1. The program shall accept a single nonnegative integer as an argument.  If anything else is entered as an argument, the program shall inform the user of proper usage and exit.
+2. If a valid integer _x_ is entered, the game shall consist of a game board of _x_ rows and _x_ columns.  Initially, all spots on the game board are blank (the `.` character).
+3. Players shall alternate turns between Player X and Player O, starting with Player X.
+4. Users may enter the column number to drop a checker of their type, 'flip' to flip the game, or 'rot' to rotate the game.  All commands shall be case-insensitive.  Entering a column number which does not exist, is full, or is otherwise not recognized as valid shall cause the program to display an error message and continue the game without changing players (e.g., if Player X enters 'foo' which is not a valid command, Player X shall receive another opportunity to enter a valid command).
+5. Upon selecting a column number, a piece corresponding to the current player will be dropped and "fall" to the lowest spot that is still blank.  If a column is full of pieces already, selecting that number of the column shall be considered an invalid command.
+6. Flipping the board with the "flip" command shall cause the board to be flipped "upside down" and all pieces falling to the "floor" of the game board.  If a "connect four" is created this way, the game is won by the player flipping the board (even if it is the other player's pieces).
+7. Rotating the board with the "rot" command shall cause the board to be rotated 90 degrees to the right (i.e. clockwise) and all pieces falling to the new "floor" of the game board.  If a "connect four" is created this way, the game is won by the player flipping the board (even if it is the other player's pieces).
+8. The first player to make a "connect four" - i.e., four checkers of the same type touching each other in a single file horizontally, vertically, or diagonally - shall be the winner.  The game shall indicate which player has won the game and exit.
+9. The game board shall indicate the column numbers by the last digit of their number.  For example, column 19 shall be displayed as '9', not '19'.  Players shall still enter '19' in order to drop a checker in the '19' column.
