@@ -9,7 +9,7 @@ Software Quality Assurance - Fall 2018
 **Instructor's Office Hours:**
 
   * SENSQ 6305
-  * Wednesdays 1:30 PM - 3:00 PM and Friday 9:00 AM - 10:30 AM
+  * Wednesdays 1:00 - 2:30 PM and Friday 9:00 AM - 10:30 AM
   * ... or by appointment.
 
 **Class Time:**
