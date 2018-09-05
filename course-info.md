@@ -16,10 +16,11 @@ Software Quality Assurance - Fall 2018
   * Mon/Wed 9:30 AM - 10:45 AM (5129 Sennott Square)
   * Mon/Wed 3:00 PM - 4:15 PM (358 Cathedral of Learning)
 
-**TAs**:
+**TA**:
 
-* TBD, GitHub username: `TBD`
-* TBD, GitHub username: `TBD`
+* Chenran Li, GitHub username: `chenranli` (both classes)
+
+_Note: The TA for this course acts as a grader.  If you have questions on the topics themselves, please email the instructor._
 
 **Class GitHub repo:** https://www.github.com/laboon/CS1632_Fall2018
 
