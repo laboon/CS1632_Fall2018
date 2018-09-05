@@ -21,7 +21,7 @@ I expect you to test three edge or corner cases as part of the test plan.  These
 
 It is expected that you actually execute the test plan in order to find the defects.  There are AT LEAST three.  Full credit will be given only to those who properly find, describe and fix at least three.  While you are not expected to find *all* of the defects, a reasonable test plan should definitely find at least three.  This is an intentionally target-rich environment.
 
-The repository you and your partner create should be private.  Besides the two people in the group, usernames `laboon` (the instructor) and `mraoufi` (the TA, Mehrnoosh Raoufi) should be added as collaborators.  The code should be entirely on the master branch.  Aside from the code, the only files in the repository should be the optional `README.md` file.
+The repository you and your partner create should be private.  Besides the two people in the group, usernames `laboon` (the instructor) and `TBD` (the TA, Chenran Li) should be added as collaborators.  The code should be entirely on the master branch.  Aside from the code, the only files in the repository should be the optional `README.md` file.
 
 The name of your repository should be `D1`.  Thus, the GitHub link should be: `https://github.com/*YOURUSERNAME*/D1`.  The name of the main file should be `connect_four.rb`.  You may modify other names or add other files if you have a reason, but I should still be able to run the program by typing `ruby connect_four.rb *SIZE*` where *SIZE* is a positive integer.
 
