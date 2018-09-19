@@ -34,12 +34,11 @@ else
   puts "This bird is living a boring life"
 end
 
-
 # Ruby also supports switch statements, but they are called case..when
 # Note that there are no fall-throughs!
 # That is, you do not need to worry about break statements
 case bird_age
-when 18
+when 18..20
   puts "This bird just became an adult"
 when 65
   puts "This bird can retire"
@@ -57,6 +56,7 @@ end
 # You can do this on one line
 # Ruby often reads like English
 puts "This bird cannot retire" unless bird_age > 64
+puts "This bird can meow" if nil
 
 bird_credits = 89
 puts "This bird cannot graduate" unless bird_credits >= 120

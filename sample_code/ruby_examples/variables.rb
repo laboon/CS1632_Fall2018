@@ -6,19 +6,19 @@
 # Use single-equals (=) for assignment, double-equals (==) for comparison
 
 my_name = "Bill" # String
-my_age = 38 # Integer
+my_age = 39 # Integer
 num_children = 1.0 # Float
 likes_hoodies = true # TrueClass - Booleans are a little weird in Ruby!
 
 # Ruby is dynamically typed - types are inferred at runtime
 # Note there is nothing stopping us from doing the following:
 
-my_age = 38
+my_age = 39
 
 # This will print out (PUT String) the class of the my_age object
 puts my_age.class # Will print out Integer
 
-my_age = "Laboon"
+my_age = "XXXIX"
 
 # my_age used to store an Integer, but now it stores a String
 # This is actually very dangerous and a common cause of issues in complex
@@ -46,6 +46,7 @@ puts c % 2 # prints 1
 
 # There are no ++ or -- operators - use "a += 1"
 # a-- would result in a syntax error
+puts a
 a += 1
 puts a # prints 2
 
@@ -64,16 +65,20 @@ puts my_dog.to_f # prints 0.0
 good_birds = ["Jazzy", "Tonic", "Ton-Dog", "Method"]
 num_good_birds = good_birds.count # returns number of elements in array
 puts "Number of good birds = #{num_good_birds}"
+puts "Even more good birds = #{num_good_birds + (100.to_f / 2 - 6)}"
 
 # Ranges are a set of values from one number to another
 num_range = 1..10
 puts num_range.count # prints 10
+puts "My range is : #{num_range.to_a}"
 
 # You can convert a range to an array using .to_a
 # This will be useful since you can do many more things with an array
 # than a range, but we will discuss those later
 
 num_range_arr = num_range.to_a
+
+puts num_range_arr
 
 # Hashes (aka HashMaps, aka dictionaries, aka associative arrays) are used
 # quite often in Ruby.  Hashes act like arrays, except instead of indexing
@@ -90,10 +95,15 @@ instructors = Hash::new
 instructors["CS1632"] = "Laboon"
 instructors["CS1530"] = "Chang"
 instructors["CS1501"] = "Farnan"
+a1502_instructors = Hash::new
+a1502_instructors["class1"] = "Tan"
+a1502_instructors["class2"] = "Max"
+instructors["CS1502"] = a1502_instructors
 puts "Who teaches CS1632?"
 puts instructors["CS1632"]
 puts "List of classes and instructors"
 puts instructors
+puts "1502-class2 #{instructors["CS1502"]["class2"]}"
 
 # Booleans are kind of odd.  TrueClass and FalseClass are two separate classes.
 t = true

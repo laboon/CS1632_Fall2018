@@ -5,7 +5,7 @@
 def raise_an_exception
   puts "Going to cause an exception."
   # If you include a string, this is a generic RuntimeError
-  # It is not rescued, so it will
+  # It is not rescued.
   # An un-rescued exception will cause the current Ruby process
   # to exit with error code 1 (error code 0 indicates normal
   # execution, anything else something anomalous)
@@ -48,7 +48,7 @@ def raise_but_rescue
     # Read "Metaprogramming in Ruby" or see my talk on some
     # of the cool things you can do with metaprogramming
     # https://vimeo.com/80366788
-    
+
     # Since 'lalala' is not valid Ruby, a NameError will be
     # raised during the third command
     commands.each { |cmd| eval cmd }
@@ -56,7 +56,7 @@ def raise_but_rescue
     # but we rescue here (kind of like catching in Java)
     puts "Could not execute a command!  Ending!"
   end
-  
+
 end
 
 # There is some syntactic sugar, if you use rescue with no
@@ -152,7 +152,7 @@ end
 
 # When you throw a symbol (like :end_prematurely), Ruby will
 # go up the stack looking for a corresponding catch of that
-# symbol and send execution there.  
+# symbol and send execution there.
 
 # This mechanism tends to be rarely used in the Ruby world
 # but it can't hurt to know about it.

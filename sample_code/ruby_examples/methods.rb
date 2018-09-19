@@ -4,7 +4,6 @@ def yay_bill
   puts "Bill is great!"
 end
 
-
 # Defining a method is just another function!  So we can intermingle execution and
 # function definition!
 
@@ -41,6 +40,7 @@ double_yay "Jane", "Jill"
 def laboonify(a, b)
   puts "Laboonifying #{a} and #{b}"
   a * 2 + b
+  return a, b
 end
 
 b = laboonify 1, 2
@@ -59,6 +59,6 @@ def is_great(name)
   false
 end
 
-puts "Is Bill great? " + is_great("Bill").to_s
-puts "Is Veronica great? #{is_great("Veronica")}" # No need for .to_s if interpolated
-puts "Is Archie great? #{is_great("Archie")}"
+# puts "Is Bill great? " + is_great("Bill").to_s
+# puts "Is Veronica great? #{is_great("Veronica")}" # No need for .to_s if interpolated
+# puts "Is Archie great? #{is_great("Archie")}"

@@ -5,8 +5,6 @@ raise "Enter input and output file" unless ARGV.count == 2
 # Otherwise, set first file as input and second as output
 input_file, output_file = ARGV[0], ARGV[1]
 
-# output_file = ARGV[1]
-
 # create an empty array, lines
 
 lines = []
@@ -30,7 +28,7 @@ end
 
 # For each line, print it to the console after:
 # 1. Converting the entire line to upper-case
-# 2. Reversing the word
+# 2. Reverse it
 # 3. 'Squeezing' all 'runs' of letters (e.g., doggy -> dogy,
 # bookkeeper -> bokeper, mooooooooooooo -> mo)
 

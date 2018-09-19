@@ -42,6 +42,12 @@ class Dog
     "Doggy #{@name}"
   end
 
+  private
+
+  def play_candyland
+    puts "I GET TO BE RED!"
+  end
+
 end
 
 # Create a subclass of Dog, SuperDog, which eats in a super way.

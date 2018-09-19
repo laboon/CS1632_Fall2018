@@ -20,6 +20,7 @@ while j < 100
   puts j
   j *= 2
 end
+
 # Ruby has "anti-while" loops called "until" loops
 # These will execute while the expression is FALSE
 
@@ -36,7 +37,7 @@ end
 j = 10
 
 puts "while not loop"
-while (not j == 0)
+while !(j == 0)
   puts j
   j -= 1
 end
@@ -55,6 +56,7 @@ end
 
 puts "for loop - only counts to 9"
 puts "for loop"
+
 for j in 1...10 do
   puts j
 end

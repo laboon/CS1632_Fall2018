@@ -38,7 +38,3 @@ not_short_named_dogs.each { |dog| puts dog }
 # Check if an array includes a value
 puts good_dogs.include? "Bobby" # prints false
 puts good_dogs.include? "Remy" # prints true
-
-# Go through a list of elements AND keep a counter
-# Note that two arguments are passed in
-good_dogs.each_with_index { |dog, index| puts "dog #{index} is named #{dog}" }
