@@ -35,13 +35,13 @@ class PredictorTest < Minitest::Test
   # object, or class)
   # assert by itself checks that the following statement returns true
   # refute by itself would check that the following statement returns false
-  
+
   def test_magic_ball_is_magic_ball
     magic_ball = Predictor::new
     assert magic_ball.is_a?(Predictor)
   end
 
-  # Very simple test - check that c# reating a new Predictor creates
+  # Very simple test - check that creating a new Predictor creates
   # a new Predictor and verifies that it is not nil.
   # nil is similar to Java's null
   # refute can be read as "assert not" - that is, refute_nil would
@@ -56,7 +56,7 @@ class PredictorTest < Minitest::Test
     magic_ball = Predictor::new
     assert_equal "SHAKE SHAKE SHAKE", magic_ball.shake
   end
-  
+
   # assert_includes means "assert that the result exists in the array
   # Predictor::ANSWERS.
   # You can obtain a constant/class variable using ::, which we have been
@@ -69,16 +69,16 @@ class PredictorTest < Minitest::Test
   end
 
   # Check that sending in a command with spaces works as expected
-  
+
   def test_ask_spaces_returns_answer
     magic_ball = Predictor::new
     assert_includes Predictor::ANSWERS, magic_ball.ask("Meow meow meow meow meow?")
   end
 
-  
+
   # This is another way of stating:
   # assert Predictor::ANSWERS.is_a?(Array)
-  
+
   def test_predefined_answers_is_array
     assert_kind_of Array, Predictor::ANSWERS
   end
@@ -88,7 +88,7 @@ class PredictorTest < Minitest::Test
   # the array.  This would lead to brittle tests that would fail after
   # every modification.  It's a balance between being _specific_ and avoiding
   # being _brittle_.
-  
+
   def test_predefined_answers_is_not_empty
     refute_empty Predictor::ANSWERS
   end
@@ -96,8 +96,8 @@ class PredictorTest < Minitest::Test
   # Checks to see if we send in a number (and not a string) to the ask
   # method of Predictor that it should raise an exception
   # Note the do...end.  This is a code block (just like in Java - { })
-  # do..end and {..} are both acceptable in Ruby.  
-  
+  # do..end and {..} are both acceptable in Ruby.
+
   def test_raises_error_when_question_is_number
     assert_raises "Question has invalid format." do
       magic_ball = Predictor::new
@@ -114,10 +114,10 @@ class PredictorTest < Minitest::Test
       magic_ball.ask("This is not a question")
     end
   end
-  
+
   # Check that the magic ball has :ask and :shake methods
   # but does NOT have a :roll method.
-  
+
   def test_magic_ball_methods
     magic_ball = Predictor::new
     assert_respond_to magic_ball, :ask
@@ -141,5 +141,5 @@ class PredictorTest < Minitest::Test
     # Remember the \n!
     assert_output("SHAKE SHAKE SHAKE\n") { magic_ball.print_shake }
   end
-  
+
 end

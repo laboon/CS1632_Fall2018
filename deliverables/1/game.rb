@@ -271,9 +271,8 @@ class Game
   def pieces_fall
     bottom_row = @size - 1
     @size.times do |column|
-      if @board[bottom_row][column] != BLANK_SPACE ||
+      if @board[bottom_row][column] != BLANK_SPACE || all_blanks_in_column?(column)
          # Skip this column, it is either full or entirely empty
-         all_blanks_in_column?(column)
       else
         # Shift column down until the lowest checker is in the bottom spot
         shift_down column until @board[bottom_row][column] != BLANK_SPACE
