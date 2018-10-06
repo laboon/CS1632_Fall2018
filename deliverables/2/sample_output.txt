@@ -1,0 +1,263 @@
+# Note that your output may differ based on the results of your
+# pseudorandom number generator and how you implement the program.
+# However, your program output should be very similar to this.
+
+$ ruby gold_rush.rb
+Usage:
+ruby gold_rush.rb *seed* *num_prospectors*
+*seed* should be an integer
+*num_prospectors* should be a non-negative integer
+
+$ ruby gold_rush.rb nfjdsnjfs nfesjnfje
+Usage:
+ruby gold_rush.rb *seed* *num_prospectors*
+*seed* should be an integer
+*num_prospectors* should be a non-negative integer
+
+$ ruby gold_rush.rb 90 -1
+Usage:
+ruby gold_rush.rb *seed* *num_prospectors*
+*seed* should be an integer
+*num_prospectors* should be a non-negative integer
+
+$ ruby gold_rush.rb 1 1
+
+Prospector 1 starting in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Coloma, holding 1 ounce of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Coloma.
+	Found 1 ounce of gold in Coloma.
+	Found 3 ounces of gold in Coloma.
+	Found 1 ounce of gold in Coloma.
+	Found 3 ounces of gold in Coloma.
+	Found no precious metals in Coloma.
+Heading from Coloma to Sutter Creek, holding 12 ounces of gold and 0 ounces of silver.
+	Found 1 ounce of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Angels Camp, holding 13 ounces of gold and 0 ounces of silver.
+	Found 4 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+Heading from Angels Camp to Nevada City, holding 18 ounces of gold and 0 ounces of silver.
+	Found 4 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 1 ounce of gold in Nevada City.
+After 24 days, Prospector #1 returned to San Francisco with:
+	58 ounces of gold.
+	0 ounces of silver.
+	Heading home with $1198.86.
+
+$ ruby gold_rush.rb 900 3
+
+Prospector 1 starting in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Coloma, holding 5 ounces of gold and 0 ounces of silver.
+	Found no precious metals in Coloma.
+Heading from Coloma to Sutter Creek, holding 5 ounces of gold and 0 ounces of silver.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Coloma, holding 9 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Coloma.
+	Found 3 ounces of gold in Coloma.
+	Found 2 ounces of gold in Coloma.
+	Found 3 ounces of gold in Coloma.
+	Found no precious metals in Coloma.
+Heading from Coloma to Virginia City, holding 20 ounces of gold and 0 ounces of silver.
+	Found no precious metals in Virginia City.
+After 15 days, Prospector #1 returned to San Francisco with:
+	20 ounces of gold.
+	0 ounces of silver.
+	Heading home with $413.40.
+
+Prospector 2 starting in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Angels Camp, holding 0 ounces of gold and 0 ounces of silver.
+	Found 4 ounces of gold in Angels Camp.
+	Found 2 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Nevada City, holding 16 ounces of gold and 0 ounces of silver.
+	Found no precious metals in Nevada City.
+Heading from Nevada City to Angels Camp, holding 16 ounces of gold and 0 ounces of silver.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Nevada City, holding 16 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 1 ounce of gold in Nevada City.
+After 17 days, Prospector #2 returned to San Francisco with:
+	31 ounces of gold.
+	0 ounces of silver.
+	Heading home with $640.77.
+
+Prospector 3 starting in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Coloma, holding 5 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Coloma.
+	Found no precious metals in Coloma.
+Heading from Coloma to Sutter Creek, holding 8 ounces of gold and 0 ounces of silver.
+	Found 1 ounce of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Angels Camp, holding 9 ounces of gold and 0 ounces of silver.
+	Found 2 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 4 ounces of gold in Angels Camp.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Virginia City, holding 18 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold and 2 ounces of silver in Virginia City.
+	Found 2 ounces of gold and 2 ounces of silver in Virginia City.
+	Found 2 ounces of gold and 2 ounces of silver in Virginia City.
+	Found 2 ounces of gold and 2 ounces of silver in Virginia City.
+	Found 2 ounces of gold in Virginia City.
+	Found 2 ounces of gold and 2 ounces of silver in Virginia City.
+	Found 1 ounce of gold and 1 ounce of silver in Virginia City.
+After 20 days, Prospector #3 returned to San Francisco with:
+	32 ounces of gold.
+	11 ounces of silver.
+	Heading home with $675.85.
+
+$ ruby gold_rush.rb 900 1
+
+Prospector 1 starting in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Coloma, holding 5 ounces of gold and 0 ounces of silver.
+	Found no precious metals in Coloma.
+Heading from Coloma to Sutter Creek, holding 5 ounces of gold and 0 ounces of silver.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Coloma, holding 9 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Coloma.
+	Found 3 ounces of gold in Coloma.
+	Found 2 ounces of gold in Coloma.
+	Found 3 ounces of gold in Coloma.
+	Found no precious metals in Coloma.
+Heading from Coloma to Virginia City, holding 20 ounces of gold and 0 ounces of silver.
+	Found no precious metals in Virginia City.
+After 15 days, Prospector #1 returned to San Francisco with:
+	20 ounces of gold.
+	0 ounces of silver.
+	Heading home with $413.40.
+
+
+$ ruby gold_rush.rb 18 2
+
+Prospector 1 starting in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Angels Camp, holding 2 ounces of gold and 0 ounces of silver.
+	Found 1 ounce of gold in Angels Camp.
+	Found 2 ounces of gold in Angels Camp.
+	Found 2 ounces of gold in Angels Camp.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Nevada City, holding 7 ounces of gold and 0 ounces of silver.
+	Found 2 ounces of gold in Nevada City.
+	Found 1 ounce of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 1 ounce of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 1 ounce of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found no precious metals in Nevada City.
+Heading from Nevada City to Angels Camp, holding 71 ounces of gold and 0 ounces of silver.
+	Found 2 ounces of gold in Angels Camp.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Virginia City, holding 73 ounces of gold and 0 ounces of silver.
+	Found 1 ounce of gold and 1 ounce of silver in Virginia City.
+After 29 days, Prospector #1 returned to San Francisco with:
+	74 ounces of gold.
+	1 ounce of silver.
+	Heading home with $1530.89.
+
+Prospector 2 starting in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found 1 ounce of gold in Sutter Creek.
+	Found 2 ounces of gold in Sutter Creek.
+	Found no precious metals in Sutter Creek.
+Heading from Sutter Creek to Angels Camp, holding 9 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Angels Camp.
+	Found 2 ounces of gold in Angels Camp.
+	Found 2 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 4 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found 2 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 1 ounce of gold in Angels Camp.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Nevada City, holding 41 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 4 ounces of gold in Nevada City.
+	Found 2 ounces of gold in Nevada City.
+	Found 1 ounce of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 5 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found 3 ounces of gold in Nevada City.
+	Found no precious metals in Nevada City.
+Heading from Nevada City to Angels Camp, holding 81 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found 3 ounces of gold in Angels Camp.
+	Found no precious metals in Angels Camp.
+Heading from Angels Camp to Virginia City, holding 96 ounces of gold and 0 ounces of silver.
+	Found 3 ounces of gold and 3 ounces of silver in Virginia City.
+	Found 3 ounces of gold in Virginia City.
+	Found 1 ounce of silver in Virginia City.
+After 43 days, Prospector #2 returned to San Francisco with:
+	102 ounces of gold.
+	4 ounces of silver.
+	Heading home with $2113.58.
