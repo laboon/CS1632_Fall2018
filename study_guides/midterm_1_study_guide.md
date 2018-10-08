@@ -1,6 +1,8 @@
-Summer# CS 1632 Midterm 1 Exam Study Guide - Spring 2018
+# CS 1632 Midterm 1 Exam Study Guide - Fall 2018
 
-The midterm is on 28 FEB 2018 (M/W classes) or 1 MAR (T/H class).
+The midterm is on 16 OCTOBER 2018.  You will have the entire class period to complete it.
+
+**NOTE that this class is on a TUESDAY, not a normal MONDAY!**
 
 The midterm will cover everything we have covered up to the exerise the class before.  I recommend you review the slides and the textbook (see syllabus.md for reminders of which chapters were required reading).
 
