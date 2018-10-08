@@ -31,7 +31,7 @@ To run Minitest tests, first make sure that you have Minitest installed.  You sh
 
 To run the tests, type "ruby main_test.rb".  You will note that there are two different "program" files, `name.rb` and `namer.rb`.  This is so we can include the Namer class WITHOUT executing the program.  Note that the `namer.rb` file only includes the Namer class definition - there is nothing to execute.  If we did a `require_relative` on `name.rb`, it would run the whole program - that is not what we want for the tests.
 
-Note that we have a `main_test.rb` file which requires the name_test.rb file.  This seems superfluous now, but it is a good idea to get in the habit of doing this, especially as we move to program with multiples files to test.
+Note that we have a `main_test.rb` file which requires the namer_test.rb file.  This seems superfluous now, but it is a good idea to get in the habit of doing this, especially as we move to program with multiples files to test.
 
 ## Issues
 
