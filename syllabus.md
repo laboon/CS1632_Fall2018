@@ -112,11 +112,11 @@ WPGR = _Why's (Poignant) Guide to Ruby_
 * (Class 1) Property-Based Testing with Rantly
   * EXERCISE 7
 
-* (Class 2) Developing a QA Strategy
+* (Class 2) NO CLASS - THANKSGIVING BREAK!
 
 ## Week 14 (Week of 26 Nov):
 
-* (Class 1) Interacting With Stakeholders
+* (Class 1) Developing a QA Strategy and Interacting With Stakeholders
   * READING: AFIST, Chapter 21
 
 * (Class 2) MIDTERM 2
