@@ -1,0 +1,42 @@
+Introduction: 10% of grade
+
+
+
+
+
+
+
+Test Plan: 35% of grade
+
+
+
+
+
+
+
+Traceability Matrix: 15% of grade
+
+
+
+
+Defects Found and Described: 15% of grade
+
+
+
+
+
+
+
+Defects Fixed: 25% of grade
+
+
+
+
+
+
+
+
+
+
+
+                                                            Total: _________
