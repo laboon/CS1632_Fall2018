@@ -4,7 +4,7 @@ The midterm is on 16 OCTOBER 2018.  You will have the entire class period to com
 
 **NOTE that this class is on a TUESDAY, not a normal MONDAY!**
 
-The midterm will cover everything we have covered up to the exerise the class before.  I recommend you review the slides and the textbook (see syllabus.md for reminders of which chapters were required reading).
+The midterm will cover everything we have covered up to the exercise the class before.  I recommend you review the slides and the textbook (see syllabus.md for reminders of which chapters were required reading).
 
 Here are the key topics to study in preparation for the test.
 
