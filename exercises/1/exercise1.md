@@ -1,5 +1,5 @@
 # CS 1632 - Software Quality Assurance
-Summer Semester 2017 - Exercise 1
+Fall Semester 2017 - Exercise 1
 
 For this exercise, you and a partner will create a Conway's Game of Life simulator in Ruby, starting with the template provided.  You will have to modify the num_neighbors, iterate, and print_arr methods, as well as fill in additional code after the EXECUTION STARTS HERE section (think of it as the equivalent of `public static void main`).
 
