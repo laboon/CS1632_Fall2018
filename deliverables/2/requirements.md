@@ -1,4 +1,4 @@
-1. The program shall be run by typing `ruby gold_rush.rb` at the command line along with two arguments, the `seed` and the `number of prospectors`.  Both shall be integers.  If there are not two arguments, the arguments cannot be interpreted as integers, or the number of prospectors is not a positive integer, the system shall report usage and exit with exit code 1.
+1. The program shall be run by typing `ruby gold_rush.rb` at the command line along with two arguments, the `seed` and the `number of prospectors`.  Both shall be integers.  If there are not two arguments, the arguments cannot be interpreted as integers, or the number of prospectors is not a non-negative integer, the system shall report usage and exit with exit code 1.
 
 2. The program shall create all pseudorandom numbers from the seed passed in as an integer argument to the program (as explained in requirement 1).  Thus, the system is repeatable with the same arguments.
 
