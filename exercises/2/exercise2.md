@@ -2,7 +2,7 @@
 
 ## Exercise 2
 
-For this assignment, you and a partner will use three static analysis tools (rubocop, reek, and simplecov) to clean up the `graph.rb` sample code.  Note that you do NOT need to clean up any of the other Ruby files in this directory such as `node.rb` or `graph_test.rb`.
+For this assignment, you and a partner will use three static analysis tools (rubocop, reek, and simplecov) to clean up the `graph.rb` sample code.  Note that you do NOT need to clean up any of the other Ruby files in this directory such as `node.rb` or `graph_test.rb` (except by adding unit tests to `graph_test.rb`).  You MAY need to modify them to ensure that they work if you make any changes to `graph.rb` such as method name changes, but you do not need to run rubocop or reek on them to see if they have any issues themselves, as long as the program itself works.
 
 This program makes a simple directed graph.
 

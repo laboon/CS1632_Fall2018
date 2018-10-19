@@ -47,7 +47,7 @@ El Dorado Cn |   10       |    0
 
 12. When heading to a new location, the simulator shall display the new location, along with the amount of gold and silver they are holding.
 
-13. The prospector's location information shall be printed out without a leading tab; iformation on precious metals found and cost shall be indented by one tab.
+13. The prospector's location information shall be printed out without a leading tab; information on precious metals found and cost shall be indented by one tab.
 
 14. After a prospector has visited five locations and thus finished prospecting, the number of ounces of gold and silver the prospector has discovered shall be displayed.
 
