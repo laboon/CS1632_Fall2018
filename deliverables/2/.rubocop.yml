@@ -22,5 +22,5 @@ Metrics/CyclomaticComplexity:
 Style/Next:
   Enabled: false
 
-Style/EndOfLine:
+Layout/EndOfLine:
   Enabled: false
