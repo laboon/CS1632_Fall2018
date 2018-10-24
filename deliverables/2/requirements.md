@@ -27,7 +27,7 @@ Sutter Creek ---- Coloma
 
 8. When a prospector leaves a location, they will travel to one of the connected locations for that location, chosen pseudorandomly.  For example, El Dorado Canyon is connected to Midas and Virginia City, so a prospector leaving El Dorado shall always head to one of those two locations.
 
-9. A prospector shall prospect until they have visited five locations.  This may include "repeats" - for example, a prospector who went to Sutter Mill, Coloma, Virginia City, Coloma, Sutter Mill has visited five locations, even though they visited only three unique locations.
+9. A prospector shall prospect until they have visited five locations.  This may include "repeats" - for example, a prospector who went to Sutter Creek, Coloma, Virginia City, Coloma, Sutter Creek has visited five locations, even though they visited only three unique locations.
 
 10. Prospectors shall find the following amounts of gold and silver at each iteration at each location.  Note that the numbers indicated are a maximum.  Prospectors shall find between 0 and the maximum number of ounces shown per iteration.
 ```
@@ -51,7 +51,7 @@ El Dorado Cn |   10       |    0
 
 14. After a prospector has visited five locations and thus finished prospecting, the number of ounces of gold and silver the prospector has discovered shall be displayed.
 
-15. After the the number of ounces of gold and silver has been displayed, the total amount of money's worth of precious metals (the sum of both silver and gold) shall be displayed.  This shall be calculated at the prevailing 1849 rate of $20.67 per ounce of gold and $1.31 per ounce of silver.
+15. After the number of ounces of gold and silver has been displayed, the total amount of money's worth of precious metals (the sum of both silver and gold) shall be displayed.  This shall be calculated at the prevailing 1849 rate of $20.67 per ounce of gold and $1.31 per ounce of silver.
 
 16. When displaying monetary values, they shall be displayed according to the nearest cent (1 / 100th of a dollar) and two values shall always be placed to the right of the decimal point.  Additionally, it shall always be prefaced by the dollar symbol $. For example, print "$1.00" instead of "1.0" or "$1", "$2.50" instead of "$2.5", etc.
 
