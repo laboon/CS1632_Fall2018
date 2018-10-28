@@ -161,7 +161,7 @@ I remind you that grammar and good code count as well as functionality.  By good
 
 The program must be run by typing `ruby gold_rush.rb *seed* *number of prospectors*`  at the command line.  It will be run using Ruby 2.5.0 and so I recommend you ensure that you have the same version, although there should be no problems if you are using Ruby 2.4.0 or above.
 
-The unit tests must be run by typing the following at the command line: `ruby gold_rush_test.rb`.  gold_rush_test.rb should require_relative any class-based test files that you use and run them as well.  All tests should be run by this one command.
+The unit tests must be run by typing the following at the command line: `ruby all_tests.rb`.  `all_tests.rb` should require_relative any class-based test files that you use and run them as well.  All tests should be run by this one command.
 
 You may ignore the main `gold_rush.rb` file IF AND ONLY IF it has 20 or fewer lines of code.  This will be very useful when developing your tests, so I recommend you look back at D1 and the sample code to see how they are laid out in order to see how to minimize the number of lines in `gold_rush.rb`.
 
