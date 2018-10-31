@@ -1,10 +1,12 @@
 # CS 1632 - Software Quality Assurance
+
 Fall Semester 2018
+
 ASSIGNED 31 OCT 2018, DUE 12 NOV 2018 (Late Due Date 14 NOV 2018: -20 points)
 
 ## Deliverable 3
 
-For this assignment, you (NOT with a partner) will create a simple web application and test it using systems-level testing.  This web application will accept three parameters, entered via textboxes, on the main page.  These three parameters will be the symbol you wish to use for "true", the symbol you wish to use for "false", and the size of the truth table (in terms of 2 ^ x, e.g., entering three will create three binary digits which means the size of the truth table is 2 ^ 3 == 8).
+For this assignment, you (NOT with a partner) will create a simple web application and test it using automated systems-level testing with Katalon.  This web application will accept three parameters, entered via textboxes, on the main page.  These three parameters will be the symbol you wish to use for "true", the symbol you wish to use for "false", and the size of the truth table (in terms of 2 ^ x, e.g., entering three will create three binary digits which means the size of the truth table is 2 ^ 3 == 8).
 
 If invalid data is entered (i.e., a multi-character true or false symbol, the same character used for true and false, or anything other than an integer >= 2 for the size), an error page should be displayed.
 
@@ -14,7 +16,7 @@ I am not interested in how "pretty" you can make the output; there is no need to
 
 Requirements for this program are in the `requirements.md` file in this directory.  In case of ambiguity, please see the sample output as an example of what to display and how the system should work.
 
-All code and tests should be on GitHub in a private repository accessible to me.
+All code and tests should be on GitHub in a private repository accessible to me and the TA.
 
 Your repository MUST be named D3.
 
@@ -57,7 +59,7 @@ Just like in D1, you should line up requirements with test cases and develop a t
 ## Tips
 
 1. Although reloader will work on the main file you call (i.e., `truth.rb`) and any views, it will NOT reload any helper files you may have `require_relative`'d!  You will have to restart the Sinatra server to reload them.
-2. You will find this assignment much easier if you learn the <table> HTML tag along with its related tags, <tr>, <td>, <th>.
+2. You will find this assignment much easier if you learn the `<table>` HTML tag along with its related tags, `<tr>`, `<td>`, `<th>`.
 3. Remember that `erb` allows you to run any Ruby code you want in the .erb file.  However, I recommend you do most of the "heavy lifting" elsewhere, because 1) adding the `<%` and `%>` gets annoying and 2) it's good practice to separate your calculations and data ("model") from how it is displayed ("view").
 
 Please feel free to email me or come to office hours to discuss any problems you have.
