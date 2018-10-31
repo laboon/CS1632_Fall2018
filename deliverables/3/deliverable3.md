@@ -51,7 +51,7 @@ Just like in D1, you should line up requirements with test cases and develop a t
 
 ```
 * Summary and Testing concerns - 10%
-* Screen shot or printout of test results - 5%
+* Screen shot of test results - 5%
 * Functionality - 40%
 * Katalon tests - 40%
 * Traceability matrix - 5%
