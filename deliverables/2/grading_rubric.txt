@@ -1,0 +1,45 @@
+* Summary and Testing Concerns- 5%
+
+
+
+
+
+* Screenshot of executed unit tests - 5%
+
+
+
+
+
+* Program Functionality - 45%
+
+
+
+
+
+
+
+[-4 for each error re: passing in arguments
+  (accepts invalid input, accepts wrong number, sets to a default etc.)]
+[-5 if program cannot be rerun exactly with same seed]
+[-4 if prospector gets invalid amount of gold/silver for a city]
+[-4 if prospector "teleports" (goes from one city to an unconnected city]
+[-3 if gold/silver value not calculated correctly]
+[Other errors are possible]
+
+* Test Code (including statement coverage) - 45%
+
+
+
+
+
+[-1 for each percentage point of statement coverage below 90%, excluding gold_rush.rb]
+[-5 for each non-trivial unit test less than 16 (up to -45)]
+[-10 if no stubs; -9 if only 1; -7 if only 2; -5 if only 3]
+[-9 if no edge cases or none labelled; -6 if only 1; -3 if only 2]
+[-2 per test case if not commented or commented in incorrect format, up to -12]
+[-10 if tests prematurely exit]
+[-5 if program runs and then tests]
+[Other errors are possible]
+
+ADDITIONAL:
+* [-2 for every Rubocop error past 3, up to -10]
