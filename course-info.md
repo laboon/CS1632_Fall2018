@@ -87,7 +87,7 @@ Lecture attendance is not required, but is STRONGLY recommended. The instructor 
 ## Project Details
 
 * **Deliverable 1:** Developing a test plan and traceability matrix for a system, and fixing discovered defects.
-* **Deliverable 2:** Developing an application using unit tests and static analyis.
+* **Deliverable 2:** Developing an application using unit tests and static analysis.
 * **Deliverable 3:** Developing a simple web application system with the help of automated systems testing (as well as unit testing and static analysis).
 * **Deliverable 4:** Performance testing, optimization, and property-based testing of an application (as well as unit testing, automated systems testing, and static analysis).
 
