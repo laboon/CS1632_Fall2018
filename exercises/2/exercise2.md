@@ -26,7 +26,7 @@ While running Rubocop and Reek, you may be warned of some odd violations which y
 
 Rubocop is a linter which looks for style violations according to the Ruby Style Guide by Bozhidar Batsov ( https://github.com/bbatsov/ruby-style-guide ) which acts as a kind of unofficial guide to how Ruby _should_ be written.
 
-By running `rubocop filename.rb`, you will be able to see a list of all violations of the Ruby Style Guide.  These should all be fixed before moving on the the next step.
+By running `rubocop filename.rb`, you will be able to see a list of all violations of the Ruby Style Guide.  These should all be fixed before moving on the  next step.
 
 ### Notes
 

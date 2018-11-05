@@ -64,7 +64,7 @@ The program shall accept three arguments: size (size of the 2-D array - the numb
 
 If a different number of arguments has been passed in, an error message should be displayed indicating this and the program exits.
 
-For each of the the arguments passed in does not meet the requirements listed above (e.g., the size of the array is negative, or the percentage is entered as 'foo' which cannot be converted to an integer), then an error message shall be displayed indicating this and the program will exit.  The program shall indicate which argument was the problem, but it does not have to check every single argument, nor explain what the problem actually is (for example, assume a user enters an invalid size and an invalid percentage - the program only needs to indicate that there was an error with one of them).
+For each of the arguments passed in does not meet the requirements listed above (e.g., the size of the array is negative, or the percentage is entered as 'foo' which cannot be converted to an integer), then an error message shall be displayed indicating this and the program will exit.  The program shall indicate which argument was the problem, but it does not have to check every single argument, nor explain what the problem actually is (for example, assume a user enters an invalid size and an invalid percentage - the program only needs to indicate that there was an error with one of them).
 
 The number of iterations shall be 0-based.  That is, one iteration will mean that the rules of the game have been applied one time.  The "0th" iteration shall be considered the initial matrix after it has been pseudorandomly populated.
 
