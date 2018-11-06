@@ -24,6 +24,8 @@
 [-4 if prospector gets invalid amount of gold/silver for a city]
 [-4 if prospector "teleports" (goes from one city to an unconnected city]
 [-3 if gold/silver value not calculated correctly]
+[-4 if gold/silver value not displayed as $x.yy (only cents)]
+[-8 if different prospectors don't do different things]
 [Other errors are possible]
 
 * Test Code (including statement coverage) - 45%
@@ -43,3 +45,4 @@
 
 ADDITIONAL:
 * [-2 for every Rubocop error past 3, up to -10]
+* [-10 if TA or I cannot access your repo]
