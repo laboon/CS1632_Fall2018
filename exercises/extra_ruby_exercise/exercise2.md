@@ -44,7 +44,7 @@ Characters in "meow":
 ["m", "e", "o", "w"]
 ASCII values of characters:
 [109, 101, 111, 119]
-ASCII values of each character multipled by 2:
+ASCII values of each character multiplied by 2:
 [218, 202, 222, 238]
 Sum of all values:
 218 + 202 + 222 + 238 = 880
