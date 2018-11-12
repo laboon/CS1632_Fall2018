@@ -134,6 +134,8 @@ Every assignment should have a title page with:
 * A link to your repository
 * The title "CS 1632 - DELIVERABLE 4: Performance Testing "
 
+ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR ON GITHUB!  My username is `laboon`.  The TA's username is `chenranli`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
+
 There is no need to print out the code BUT YOU MUST PRINT OUT AND HAND IN THE DELIVERABLE PAPERWORK.  The code should be available on GitHub BY THE BEGINNING OF CLASS.
 
 For the summary, describe how you profiled and improved the application in approximately one page.  You should answer the following questions in your summary:
