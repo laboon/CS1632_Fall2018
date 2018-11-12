@@ -116,7 +116,7 @@ Based on this, you should find the longest valid word or words.  For this exerci
 
 The longest valid word in this example is "CAKE".
 
-The program shall called `word_finder.rb` and should be run with `ruby word_finder.rb *name_of_file*`.  Your repository shall be named D4.  This program must be written in Ruby and use minitest for the unit tests.  You may use whatever gem you like, provided it builds on my machine.  This program must also use rubocop with the attached .rubocop.yml configuration and SimpleCov as described in class.
+The program shall be called `word_finder.rb` and should be run with `ruby word_finder.rb *name_of_file*`.  Your repository shall be named D4.  This program must be written in Ruby and use minitest for the unit tests.  You may use whatever gem you like, provided it builds on my machine.  This program must also use rubocop with the attached .rubocop.yml configuration and SimpleCov as described in class.
 
 You should work on making this program execute as quickly as possible (i.e., minimize real execution time).  You may use all computing resources available to you.  This will be run on a four-core system with eight gigabytes of RAM.  No other programs will be running at the time (except standard background processes, the terminal program, etc.).
 
