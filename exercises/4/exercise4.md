@@ -13,7 +13,7 @@ This is an exercise and is thus not graded.
 
 ## Wolf Pack Simulator
 
-The Wolf Pack Simulator allows you to add a wolf, determine the size of biggest wolf in the pack, return the name of a random (technically pseudorandom) wolf, or make all the wolves in the pack howl.
+The Wolf Pack Simulator allows you to add a wolf, determine the size of the biggest wolf in the pack, return the name of a random (technically pseudorandom) wolf, or make all the wolves in the pack howl.
 
 You are going to modify the methods and write tests for these relatively simple methods, with your tests not referring directly to the class wolf.  Note that your CODE should not use doubles, only your tests.
 

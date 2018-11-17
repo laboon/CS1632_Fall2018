@@ -24,10 +24,10 @@ Your repository MUST be named D3.
 You should turn in a title page with:
 
 * The title "CS 1632 - DELIVERABLE 3: Automated System Testing of a Web Application"
-* Yuur name and your GitHub username
+* Your name and your GitHub username
 * The URL of your code and tests on GitHub
 
-ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR ON GITHUB!  My username is `laboon`.  The TA's username is `chenranli`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
+ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is `chenranli`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
 
 Before turning this assignment in, I HIGHLY recommend you double-check that all of the code that you think is committed is in fact committed by (1) looking at the code on the GitHub web interface and (2) cloning it down to a new directory on your machine and trying to run it from there.
 

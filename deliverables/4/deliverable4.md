@@ -122,7 +122,7 @@ Based on this, you should find the longest valid word or words.  For this exerci
 
 The longest valid word in this example is "CAKE".
 
-The program shall called `word_finder.rb` and should be run with `ruby word_finder.rb *name_of_file*`.  Your repository shall be named D4.  This program must be written in Ruby and use minitest for the unit tests.  You may use whatever gem you like, provided it builds on my machine.  This program must also use rubocop with the attached .rubocop.yml configuration and SimpleCov as described in class.
+The program shall be called `word_finder.rb` and should be run with `ruby word_finder.rb *name_of_file*`.  Your repository shall be named D4.  This program must be written in Ruby and use minitest for the unit tests.  You may use whatever gem you like, provided it builds on my machine.  This program must also use rubocop with the attached .rubocop.yml configuration and SimpleCov as described in class.
 
 You should work on making this program execute as quickly as possible (i.e., minimize real execution time).  You may use all computing resources available to you.  This will be run on a four-core system with eight gigabytes of RAM.  No other programs will be running at the time (except standard background processes, the terminal program, etc.).
 
@@ -139,6 +139,8 @@ Every assignment should have a title page with:
 * The name of the students in the group and their GitHub usernames
 * A link to your repository
 * The title "CS 1632 - DELIVERABLE 4: Performance Testing "
+
+ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR ON GITHUB!  My username is `laboon`.  The TA's username is `chenranli`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
 
 There is no need to print out the code BUT YOU MUST PRINT OUT AND HAND IN THE DELIVERABLE PAPERWORK.  The code should be available on GitHub BY THE BEGINNING OF CLASS.
 
