@@ -27,7 +27,7 @@ EXAMPLE:
 6;B;
 ```
 
-Note that IDs must be numeric, but may not be in numeric order in the file (e.g., node ID 10 may come before node ID 9).
+Note that IDs must be numeric, but may not be in numeric order in the file (e.g., node ID 10 may come before node ID 9).  There also may be "missing" IDs (e.g. 1, 2, 3, 7, 8, 9 is "missing" 4, 5 and 6 - this is still a valid graph).
 
 Graphs may be entirely connected or unconnected.  That is, there may be entirely separate sub-graphs.
 
@@ -95,6 +95,12 @@ ACB
 ABC
 BCA
 BAC
+CKE
+CEK
+KCE
+KEC
+ECK
+EKC
 AKE
 AEK
 KAE
