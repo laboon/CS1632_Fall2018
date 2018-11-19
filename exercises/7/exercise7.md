@@ -16,7 +16,7 @@ In order to do so, we will use the Ruby gem __rantly__.  Rantly is a property-ba
 3. We are going to test the `Market` class (in `market.rb`) using property-based testing.  There are already several property-based tests available - run them as you would any Minitest test.  There are also some commented-out tests which describe invariants which should hold.  Uncomment them and fill them in, and try to find some errors of your own.
 5. Fix any errors that you find.
 
-Note that there are other some files.  You do not need to perform any property-based testing or other testing on them.
+Note that there are some other files.  You do not need to perform any property-based testing or other testing on them.
 
 Rantly GitHub page: https://github.com/rantly-rb/rantly
 
