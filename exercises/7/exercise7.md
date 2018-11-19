@@ -1,4 +1,4 @@
-# Exercise 8 - Property-Based Testing
+# Exercise 7 - Property-Based Testing
 
 In this exercise, we will:
 
