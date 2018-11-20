@@ -1,0 +1,37 @@
+* Summary and Testing concerns - 10%
+  -10 if missing; -5 if missing any concerns or issues
+
+
+
+* Screen shot or printout of test results - 5%
+  -5 if missing
+
+
+
+* Functionality - 40%
+  Main page looks correct (three textboxes, button, label) - -2 for each missing
+  Default click causes T/F/2^3 truth table (-4 if not)
+  Entering no data for T/F but entering size 4 shows default truth table of size 2^4 (-4 if not)
+  Entering no data for size byt 1/0 for truth values shows default truth table of size 2^3 (-4 if not)
+  Entering invalid data ("foo") for size causes error page to be shown (-4 if not)
+  Entering same character for truth and false values causes error page to be shown (-4 if not)
+  Truth table AND/OR/XOR values correct (-3 each if not, up to -9)
+  Truth table shows all possible T/F combinations (-6 if not)
+  Link back to main page on all pages (-5 if not)
+  Going to localhost:4567/foofoo should show correct 404 page (-5 if not)
+  
+
+
+
+
+* Katalon tests - 40%
+  -3 for each test without an assertion (up to -9)
+  -4 for each failing test not specified in testing concerns
+  -5 per test for each test less than 16
+
+
+
+
+* Traceability matrix - 5%
+  -2 for each requirement not tested
+  -2 for each test case not part of a requirement
