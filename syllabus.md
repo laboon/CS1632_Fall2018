@@ -125,7 +125,8 @@ WPGR = _Why's (Poignant) Guide to Ruby_
 
 * (Class 1) Security Testing
   * READING: AFIST, Chapter 20
-  * DUE: D4
 
 * (Class 2) Penetration Testing and Class Wrap-up
   * EXERCISE 8
+  * DUE: D4
+
