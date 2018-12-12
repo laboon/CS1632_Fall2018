@@ -1,0 +1,21 @@
+[laboon@ekaterina ~/pitt/pitt_private/cs1632_graph]
+(20135) $ ruby word_finder.rb ~/pitt/CS1632_Fall2018/deliverables/4/graded_graphs/graded_small_graph.txt
+Longest valid word(s):
+ESOX
+
+[laboon@ekaterina ~/pitt/pitt_private/cs1632_graph]
+(20135) $ ruby word_finder.rb ~/pitt/CS1632_Fall2018/deliverables/4/graded_graphs/graded_big_graph.txt
+Longest valid word(s):
+SULTRY
+
+[laboon@ekaterina ~/pitt/pitt_private/cs1632_graph]
+(20136) $ ruby word_finder.rb ~/pitt/CS1632_Fall2018/deliverables/4/graded_graphs/graded_invalid_graph.txt
+Graph 'graded_invalid_graph.txt' could not be parsed
+
+[laboon@ekaterina ~/pitt/pitt_private/cs1632_graph]
+(20137) $ ruby word_finder.rb ~/pitt/CS1632_Fall2018/deliverables/4/graded_graphs/graded_skipped_graph.txt
+Longest valid word(s):
+JOVE
+ESTO
+TOES
+TOGS
