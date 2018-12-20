@@ -93,7 +93,7 @@ WPGR = _Why's (Poignant) Guide to Ruby_
 ## Week 11 (Week of 5 NOV):
 
 * (Class 1) Performance Testing
-  * READING: Chapter 19
+  * READING: AFIST, Chapter 19
 
 * (Class 2) Performance Testing, cont'd.
 
